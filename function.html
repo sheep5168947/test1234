@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" class="num" value="3">
+    <input type="button" onclick="bott()" value="press">
+    <br>
+    <p>
+        the ans is <em class="ans"> </em>
+    </p>
+    <script>
+        function bott()
+        {
+            var str = document.querySelector('.num').value;
+            document.querySelector('.ans').textContent = str*str;
+        }
+        
+    </script>
+</body>
+</html>
